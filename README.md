@@ -1,6 +1,17 @@
 # Job Market Intelligence Pipeline
 
-A production-style end-to-end Data Engineering portfolio project that ingests job posting data from public APIs, stores raw data in cloud object storage, transforms it using dbt, orchestrates workflows with Airflow, and models analytics-ready tables in BigQuery using Medallion architecture.
+An end-to-end modern ELT data engineering pipeline that ingests job posting data from public APIs, stores raw data in Google Cloud Storage, transforms data with dbt, orchestrates workflows using Airflow, and builds analytics-ready star schema models in BigQuery.
+
+### Technologies
+Python • SQL • BigQuery • dbt • Airflow • Docker • Google Cloud Storage
+
+### Key Features
+- Incremental ingestion
+- Medallion architecture
+- Star schema modeling
+- dbt data quality tests
+- Airflow DAG orchestration
+- Dockerized local environment
 
 ---
 
